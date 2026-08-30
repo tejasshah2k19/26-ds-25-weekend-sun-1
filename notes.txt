@@ -1,0 +1,93 @@
+sunday --- 1 to 3 {2-3} 
+linear 
+	array
+	stack
+	queue
+	linkedlist 
+
+non linear 
+	tree 
+	graph 
+	hash - table**  
+
+
+kavyan sir --- offline ---- sat 7-8 // 6-7
+searching 
+	linear 
+	binary 
+
+sorting 
+	bubble 
+	selection 
+	insertion
+	merge 
+	quick 
+	
+
+-----------------------------------------------------------
+C -> 
+
+array --> 
+
+    int arr[25];//25 numbers  
+        array is collection of  same type of items / data with continue memory allocation 
+
+
+
+?
+
+    int arr[5] -> 5 values 
+               -> bytes ? 
+               int -> 4 byte 
+               -> 20 bytes 
+
+    how to access any single data from array ? 
+    index 
+    start with 0 
+    end  with SIZE-1
+
+    int arr[5]; //  arr[0] arr[1] arr[2] arr[3] arr[4]
+
+    arr[0] = 10; 
+    //scanf 
+
+
+    types array ? 
+    int arr[5]==> vector 
+    int arr[3][3] ==> matrix 
+    int arr[4][4][4] => multi dimension => tensor 
+
+-----------------------------------------------------------
+
+LIFO  -> last in first out 
+stack --> 
+
+    dmart --> B:  X Y Z
+
+    1) function calling  
+            abc() 
+                def()
+                    xyz() 
+
+    2) inbox -> last -> first 
+
+    3) stack of chair , stack of plates 
+
+    4) call log 
+    5) chats 
+    6) gallery
+    7) ctrl + z -> undo 
+
+
+
+add     : PUSH 
+remove  : POP 
+display : display
+
+*peep 
+*peak 
+
+
+stack ---> int 
+char ?
+
