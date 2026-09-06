@@ -90,4 +90,29 @@ display : display
 
 stack ---> int 
 char ?
+---------------------------------------------
+leetcode -> 200+
+
+problem -> question ? 
+computer -> solve
+test cases --> 
+time complexity --->
+space complexity ---> 
+
+
+
+https://leetcode.com/problems/two-sum/description/
+class Solution {
+    public static int[] twoSum(int[] nums, int target) {
+        
+    }
+
+    public static void main( String []args){
+        int arr[]={11,22,33,44,55}; 
+        int ans[] =  Solution.twoSum(arr,55);
+        System.out.println(ans[0]);//1
+        System.out.println(ans[1]);//2 
+        
+    }
+}
 
