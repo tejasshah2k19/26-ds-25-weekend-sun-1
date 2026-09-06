@@ -116,3 +116,36 @@ class Solution {
     }
 }
 
+----------------------------------------------------------------
+
+Queue 
+    1) simple queue 
+    2) circular queue 
+    3) double ended queue -DEQ {IRD,ORD}
+
+FIFO -> First In First Out 
+Queue 
+
+    0  1  2  3  4
+[                 ]
+
+
+insert  : enQueue 
+remove  : deQueue 
+display : display
+
+    0  1   2  3  4
+[     20  30        ]
+
+enQueue(10)
+enQueue(20)
+enQueue(30)
+
+display()  10 20 30
+
+deQueue() 10 
+
+
+
+-------------------------------------------------------------------------------------------------------
+
