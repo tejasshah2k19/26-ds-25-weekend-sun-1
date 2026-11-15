@@ -156,3 +156,123 @@ deQueue -> remove
 display -> list 
 
 
+
+int a[50]; // gcc 4 byte --> 200 byte 
+
+50--> 5  { 45 free } { release ? }
+[decrease?]
+
+Fix - static memory allocation 
+SMA 
+
+
+int a[50] // 150 elements  ? //50 100elements 
+
+[increase?]
+
+
+
+a[5]? 
+DMA 
+
+calloc() -- allocate 
+malloc() -- allocate 
+free()   -- release 
+realloc() -- realloc 
+
+stdlib.h 
+
+pointer ---> 
+
+
+pointer -- memory address 
+
+pointer variable --> store memory address of variable 
+variable ---> values 
+
+//4 byte 
+int a; //10 20 30 40
+
+int *p; //memory address 
+
+how to access memory address of a variable? 
+
+
+& => address of 
+
+p = &a; 
+
+----------------------------------------------------------------------------------------------
+
+function    :done 
+pointer     :done 
+structure   : 
+
+DMA 
+
+linkedlist 
+
+
+structure ---> 
+        collection of items with diff data types. 
+
+student 
+    name            char[]
+    age             int  
+    percentage      float 
+    
+
+struct student {
+    char name[20];
+    int age;
+    float percentage; 
+    int maths,sci,eng; 
+};
+
+printf("enter name and marks of three subjects");
+
+
+value -> dot , arrow 
+
+-------------------------------------------------------------
+
+DMA 
+SMA 
+
+int main(){ 
+        
+        int arr[5]; //20 byte [10 20][-12 byte]
+                    //20 byte [10 20 30 40 50] [+8 byte]
+        int a; //4 byte -> implicit 
+
+
+
+        //a memory release? no 
+
+}//scope 
+
+
+
+DMA : stdlib.h 
+        calloc()
+        malloc()
+        free()
+        realloc()
+
+ p = malloc(num of bytes)
+
+ a = calloc(num of block , size of block )
+             5,4
+
+
+
+Q: take two dynamic variable and perform addition of it. 
+
+Q: create array of size 5 using dma , scan print find out sum of all elements. 
+
+
+
+struct product store -> DMA 
+
+
+
